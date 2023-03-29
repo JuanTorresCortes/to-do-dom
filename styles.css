@@ -1,68 +1,90 @@
-
-body{
-    display: flex;
-    justify-content: center;
+body {
+  margin: 0;
+  background-image: url("img/chart-2779102__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#main-Container{
-    margin-top: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    
-    
+#main-Container {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
 
-#input-Container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    height:auto;
-    padding: 3px;
+#input-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  padding: 3px;
 }
 
-#list-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    background-color: rgb(107, 101, 112);
-    padding: auto;
+#list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 86%;
+  background-image: url("img/legal-pad-979558__340 copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10em;
 }
-button{
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
+button {
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#ordered-list {
+  color: black;
 }
 
 li {
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-around;
-    background-color: green;
-    border: 3px solid rgb(16, 16, 72);
-    border-radius: 15px;
-    padding: 5px;
-    margin: 20px;
-    width: 95%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: green;
+  border: 3px solid rgb(16, 16, 72);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 20px;
+  width: 95%;
 }
 
 .border {
-    border: 3px solid black;
-    border-radius: 20px;
+  border: 3px solid black;
+  border-radius: 20px;
 }
 
 #add {
-    background-color: green;
+  background-color: green;
 }
 
-#remove{
-    background-color: orange;
+#remove-completed{
+  background-color: orange;
 }
-#remove-All{
-    background-color: red;
-    margin-bottom: 26px;
+#remove-All {
+  background-color: red;
+  margin-bottom: 26px;
+}
+
+.position {
+  position: fixed;
+  right: -40px;
+  bottom: -50px;
+}
+.position-l {
+  position: fixed;
+  left: -40px;
+  bottom: -50px;
+}
+
+h1{
+    position: relative;
+    top: -4em;
+    color: black;
 }

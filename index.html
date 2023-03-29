@@ -8,25 +8,31 @@
     <title>To do DOM</title>
 </head>
 <body>
+
+    <div>
+        <button id="test">test</button>
+    </div>
     
     <div id="main-Container">
-        <h1>Todo List</h1>
-        <div id="input-Container">
-            <label><h2>Add to your todo list!</h2></label>
-            <input id="list-item-input" type="text" autocomplete="off" placeholder="Enter list item"/>
-            <br>
-            <button id="add">ADD</button> <button id="remove">REMOVE COMPLETED TASKS</button> <button id="remove-All">REMOVE ALL</button>
-        </div>
-        
+
         <div id="list-container" class="border">
+            <h1>To-do List</h1>
+            <div id="input-Container">
+                <label><h2>Add to your to-do list!</h2></label>
+                <input id="list-item-input" type="text" autocomplete="off" placeholder="Enter list item"/>
+                <br>
+                <button id="add">ADD</button> <button id="remove-completed">REMOVE COMPLETED TASKS</button> <button id="remove-All">REMOVE ALL</button>
+            </div>
             <ol id="ordered-list"></ol>
         </div>
 
+        
+        
     </div>
     
+    <img src="img/Sad-Cat-Meme-Transparent-Free-PNG.png" alt="sad cat" class="position" >
+    <img src="img/Sad-Cat-Meme-Transparent-Free-PNG-L.png" alt="sad cat" class="position-l">
 
-   
-    
 </body>
 <script src="main.js"></script>
 </html>
